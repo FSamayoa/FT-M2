@@ -1,6 +1,20 @@
 //* Ver Amigos
 
 $("#boton").on("click", function (){
+    // let lista = $("#lista")
+    // $.get("http://localhost:5000/amigos", (response)
+    // =>{
+    //     response.map(amigo=>){
+    //         let elementoHTML = document.createElement("li")
+    //         elementoHTML.innerText= `${amigo.name} es tu amigo numero: ${amigo,id}`;
+    //         lista.append(elementoHTML)
+        
+    //     }  
+    //     });
+    
+
+    
+
     $.ajax ({
         type:"GET",
         url: "http://localhost:5000/amigos",
